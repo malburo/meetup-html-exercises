@@ -18,6 +18,15 @@ html {
     box-sizing: border-box;
 }
 
+.button {
+    cursor: pointer;
+    text-decoration: none!important;
+    font-size: 1.6rem;
+    color: var(--while-color);
+    font-weight: 500;
+}
+
+
 .grid {
     width: 1200px;
     max-width: 100%;
