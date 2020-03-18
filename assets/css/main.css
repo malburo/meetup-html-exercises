@@ -121,16 +121,19 @@
 }
 
 /* group card */
-.container__group {
-}
-
 .container__group-title .main-title {
   font-size: 2rem;
   font-weight: 600;
+  margin-top: 46px;
+  margin-bottom: 10px;
+}
+.container__group-title .sub-title {
+  margin: 0;
+  margin-bottom: 26px;
 }
 .container__group-list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .container__group-card {
   width: 260px;
@@ -138,10 +141,12 @@
   cursor: pointer;
   transition-property: box-shadow, transform;
   transition: 0.25s, 0.25s;
+  
+  border-radius: 0 0 8px 8px;
 }
 .container__group-card:hover {
-    box-shadow: 1px 1px 4px 0 rgba(44, 57, 65, 0.12);
-    transform: translateY(-1.5px);
+  box-shadow: 1px 1px 4px 0 rgba(44, 57, 65, 0.12);
+  transform: translateY(-1.5px);
 }
 .container__group-card .header-card {
   background-image: url(https://i.picsum.photos/id/129/4910/3252.jpg);
@@ -174,8 +179,27 @@
   font-size: 2rem;
   color: var(--gray-color-7);
 }
-.info-card__upcoming-event {
 
+.container__caretories {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4,auto);
 }
-.info-card__amount-member {
+.container__caretories--item {
+    width: 260px;
+}
+.container__caretories--item a {
+    text-decoration: none;
+}
+.container__caretories--item .caretories__header-card {
+  
+  height: 160px;
+  background-image: url(https://i.picsum.photos/id/129/4910/3252.jpg);
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.container__caretories--item .caretories__title-card {
+    font-size: 1.6rem;
+    color: #493b2b;
 }
