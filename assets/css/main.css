@@ -201,15 +201,21 @@
 .container__caretories--item .caretories__title-card {
   font-size: 1.6rem;
   color: #493b2b;
+  margin: 10px 0 22px 0;
+}
+.container__caretories--item .caretories__title-card h4 {
+  margin: 0;
 }
 
+/* how-meetup-work component */
 .container__how-meetup-work {
+  margin-top: 22px;
   text-align: center;
   height: 366px;
   background-color: #0f1721;
   color: var(--while-color);
   display: flex;
-  align-items: flex-start
+  align-items: flex-start;
 }
 .work-header p {
   font-size: 3rem;
@@ -219,35 +225,68 @@
 .work-body {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .word-body--item {
   display: flex;
   text-align: left;
   align-items: center;
-  
 }
 .word-body--item .item-icon i {
   font-size: 8rem;
   color: var(--primary-color);
   margin-right: 20px;
 }
-.word-body--item .item-content__title {
+.item-content__title {
   font-size: 3rem;
   font-weight: bold;
 }
 
-.word-body--item .item-content__link {
+.item-content__link {
   font-size: 1.6rem;
   color: var(--primary-color);
   text-decoration: none;
-} 
+}
 .item-content__link {
   position: relative;
 }
-.word-body--item .item-content__link i {
+.item-content__link i {
   position: absolute;
   top: -2px;
   right: -42px;
+}
+/* get the app component */
+.container__get-the-app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container__get-the-app .item-content {
+  margin-top: 80px;
+}
+.container__get-the-app .item-content__title {
+  margin: 14px 0;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.container__get-the-app .icon__dowload {
+  display: flex;
+  width: 340px;
+  height: 170px;
+}
+
+.container__get-the-app .icon__dowload--ios {
+  width: 160px;
+  height: 48px;
+  margin: 48px 22px 0 0;
+}
+.container__get-the-app .icon__dowload--android {
+  width: 160px;
+  height: 48px;
+  margin: 48px 22px 0 0;
+}
+
+.container__get-the-app .item-img-download {
+  width: 226px;
+  height: 300px;
 }
