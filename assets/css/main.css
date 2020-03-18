@@ -32,7 +32,10 @@
   text-decoration: none;
   color: var(--gray-color-6);
 }
-
+.header__list-item-link:hover {
+  color: var(--primary-color);
+  transition: all 0.4s;
+}
 .nav-create {
   color: var(--primary-color);
   font-weight: 600;
@@ -96,7 +99,10 @@
   align-items: center;
   margin-top: 20px;
 }
-
+.explore-home__button:hover {
+  background-color: #e81035;
+  transition: all 0.4s;
+}
 /* caretory */
 .container__caretory-list {
   text-align: center;
@@ -268,6 +274,7 @@
   margin: 14px 0;
   font-size: 3.2rem;
   font-weight: 500;
+  color: black;
 }
 .container__get-the-app .icon__dowload {
   display: flex;
@@ -353,11 +360,26 @@ p {
   margin: 48px 22px 0 0;
 }
 
-.footer__body--options select{
+.footer__body--options select {
   padding: 20px 40px 20px 20px;
   font-size: 1.6rem;
   width: 100%;
   background-color: #0f1721;
   color: var(--while-color);
   outline: none;
+}
+/* footer legal component */
+.footer__legal {
+  background-color: #30363f;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__legal p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--while-color);
+  margin: 20px;
 }
