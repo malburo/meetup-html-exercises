@@ -290,3 +290,74 @@
   width: 226px;
   height: 300px;
 }
+
+/* footer body component */
+.footer__main {
+  height: 530px;
+  background-color: #353d47;
+}
+.footer__main a,
+p {
+  font-size: 1.6rem;
+  color: var(--while-color);
+}
+.footer__main-create {
+  padding: 42px 0;
+}
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__body .footer__body--your-account,
+.footer__body .footer__body--discover,
+.footer__body .footer__body--meetup,
+.footer__body .footer__body--follow-us {
+  margin-top: 42px;
+}
+
+.footer__body .your-account__list,
+.footer__body .discover__list,
+.footer__body .meetup__list {
+  padding: 0;
+  margin: 0;
+}
+.footer__body .your-account__list-item,
+.footer__body .discover__list-item,
+.footer__body .meetup__list-item {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.footer__body .your-account__list-item a,
+.footer__body .discover__list-item a,
+.footer__body .meetup__list-item a {
+  text-decoration: none;
+  color: #b4b1b3;
+}
+
+.footer__body--follow-us .footer__body--socials img {
+  width: 24px;
+  margin: 10px 10px 20px 0;
+}
+
+.footer__body--download .icon__dowload {
+  width: 340px;
+  height: 170px;
+  display: flex;
+}
+
+.footer__body--download .icon__dowload--ios,
+.footer__body--download .icon__dowload--android {
+  width: 160px;
+  height: 48px;
+  margin: 48px 22px 0 0;
+}
+
+.footer__body--options select{
+  padding: 20px 40px 20px 20px;
+  font-size: 1.6rem;
+  width: 100%;
+  background-color: #0f1721;
+  color: var(--while-color);
+  outline: none;
+}
