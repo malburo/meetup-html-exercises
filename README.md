@@ -1,4 +1,4 @@
-#  Meetup exercise :watermelon: :watermelon:
+#  :watermelon: Meetup exercise
 
 This is my html exercise when i learning on codersX.
 
